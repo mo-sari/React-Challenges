@@ -1,0 +1,3 @@
+import { CHALLENGE_1_FOLDER } from "./CHALLENGE_1_FOLDER";
+
+export { CHALLENGE_1_FOLDER };
