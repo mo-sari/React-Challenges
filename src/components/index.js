@@ -1,3 +1,4 @@
-import { CHALLENGE_1_FOLDER } from "./CHALLENGE_1_FOLDER";
+import FOLDER from "./CHALLENGE_1_FOLDER.jsx";
+import PAGINATION from "./CHALLENGE_2_PAGINATION.jsx";
 
-export { CHALLENGE_1_FOLDER };
+export { FOLDER, PAGINATION };

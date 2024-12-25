@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-export const CHALLENGE_1_FOLDER = ({ explorer }) => {
+const CHALLENGE_1_FOLDER = ({ explorer }) => {
   const [data, setData] = useState(explorer);
   const [showChildren, setShowChildren] = useState(false);
 
@@ -125,3 +125,5 @@ export const CHALLENGE_1_FOLDER = ({ explorer }) => {
     return <div>🗄 {data.name}</div>;
   }
 };
+
+export default CHALLENGE_1_FOLDER;
