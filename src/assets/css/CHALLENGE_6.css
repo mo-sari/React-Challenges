@@ -1,0 +1,14 @@
+.container {
+  display: gird;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+  grid-auto-rows: calc(50vh / 3);
+}
+
+.container div {
+  background-color: white;
+}
+
+.container .activated {
+  background: lightgreen;
+}
