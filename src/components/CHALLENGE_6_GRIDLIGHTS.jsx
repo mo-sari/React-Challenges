@@ -35,7 +35,7 @@ const CHALLENGE_6_GRIDLIGHTS = () => {
         background: "white",
       }}
     >
-      <div className="container">
+      <div className="gridlightContainer">
         {[...Array(9)].map((d, i) => {
           return (
             <button

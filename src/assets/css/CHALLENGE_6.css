@@ -1,14 +1,14 @@
-.container {
-  display: gird;
+.gridlightContainer {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0;
   grid-auto-rows: calc(50vh / 3);
 }
 
-.container div {
+.gridlightContainer div {
   background-color: white;
 }
 
-.container .activated {
+.gridlightContainer .activated {
   background: lightgreen;
 }
