@@ -7,6 +7,7 @@ import {
   PROGRESSBAR,
   GRIDLIGHT,
   USEMEMO,
+  LIKEBUTTON,
 } from "./components";
 import { Home } from "./Home";
 import { explorer } from "./datas";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/progress-bar" element={<PROGRESSBAR value={10} />} />
         <Route path="/gridlight" element={<GRIDLIGHT />} />
         <Route path="/usememo" element={<USEMEMO />} />
+        <Route path="/likebutton" element={<LIKEBUTTON />} />
       </Routes>
     </BrowserRouter>
   );

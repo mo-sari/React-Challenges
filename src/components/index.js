@@ -5,6 +5,7 @@ import PASSWORD from "./CHALLENGE_4_PASSWORD_GEN.jsx";
 import PROGRESSBAR from "./CHALLENGE_5_PROGRESS_BAR.jsx";
 import GRIDLIGHT from "./CHALLENGE_6_GRIDLIGHTS.jsx";
 import USEMEMO from "./CHALLENGE_7_USEMEMO.jsx";
+import LIKEBUTTON from "./CHALLENGE_8_LIKEBUTTON.jsx";
 
 export {
   FOLDER,
@@ -14,4 +15,5 @@ export {
   PROGRESSBAR,
   GRIDLIGHT,
   USEMEMO,
+  LIKEBUTTON,
 };
