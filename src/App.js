@@ -6,6 +6,7 @@ import {
   PASSWORD,
   PROGRESSBAR,
   GRIDLIGHT,
+  USEMEMO,
 } from "./components";
 import { Home } from "./Home";
 import { explorer } from "./datas";
@@ -21,6 +22,7 @@ function App() {
         <Route path="/password-gen" element={<PASSWORD />} />
         <Route path="/progress-bar" element={<PROGRESSBAR value={10} />} />
         <Route path="/gridlight" element={<GRIDLIGHT />} />
+        <Route path="/usememo" element={<USEMEMO />} />
       </Routes>
     </BrowserRouter>
   );
