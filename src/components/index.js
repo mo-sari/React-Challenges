@@ -6,6 +6,7 @@ import PROGRESSBAR from "./CHALLENGE_5_PROGRESS_BAR.jsx";
 import GRIDLIGHT from "./CHALLENGE_6_GRIDLIGHTS.jsx";
 import USEMEMO from "./CHALLENGE_7_USEMEMO.jsx";
 import LIKEBUTTON from "./CHALLENGE_8_LIKEBUTTON.jsx";
+import JOBBOARD from "./CHALLENGE_9_1_JOBBOARD.jsx";
 
 export {
   FOLDER,
@@ -16,4 +17,5 @@ export {
   GRIDLIGHT,
   USEMEMO,
   LIKEBUTTON,
+  JOBBOARD,
 };

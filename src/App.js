@@ -8,6 +8,7 @@ import {
   GRIDLIGHT,
   USEMEMO,
   LIKEBUTTON,
+  JOBBOARD,
 } from "./components";
 import { Home } from "./Home";
 import { explorer } from "./datas";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/gridlight" element={<GRIDLIGHT />} />
         <Route path="/usememo" element={<USEMEMO />} />
         <Route path="/likebutton" element={<LIKEBUTTON />} />
+        <Route path="/jobboard" element={<JOBBOARD />} />
       </Routes>
     </BrowserRouter>
   );
